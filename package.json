@@ -1,0 +1,19 @@
+{
+  "name": "merge-sorted-collections",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Merge three sorted integer arrays without sorting",
+  "main": "dist/merge.js",
+  "types": "dist/merge.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/*.test.js",
+    "start": "node example.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
